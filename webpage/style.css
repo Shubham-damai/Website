@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* for overall navigation and logo  */
+.up {
+    display: flex;
+    background: linear-gradient(#141e30, #243b55);
+    position: sticky;
+    top: 0%;
+}
+
+/* for logo  */
+.logo {
+    height: 60px;
+    width: auto;
+    padding: 18px 0 0 47px;
+}
+
+/* our website tittle  */
+.up h1 {
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+    margin: 27px 185px 0 0;
+    color: white;
+}
+
+/* this is search bar  */
+.search-bar{
+    width: 100%;
+    max-width: 140px;
+    background: rgba(225, 225, 225, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0px 75px 0 132px;
+    max-height: 54px;
+    margin: 19px 0 0 0;
+    backdrop-filter: blur(10px) saturate(180%);
+    
+}
+.search-bar input{
+    background: transparent;
+    flex: 0;
+    border: 0;
+    outline: none;
+    color: #cac7ff;
+    padding: 0 52px 0 0px;
+}
+::placeholder{
+    color:  #cac7ff;
+}
+
+
+
+
+
+/* this is for button position */
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+/* button decorartion  */
+.btn-1 {
+    cursor: pointer;
+    height: 35px;
+    border: none;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+    padding: 0 10px;
+    margin: 0 0 0 26px;
+    border-radius: 20px;
+   }
+
+
+/* this is navigation bar friend  */
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0 33px 0 0px;
+}
+
+nav li :hover {
+
+    color: #606367;
+}
+
+nav li {
+    display: inline-block;
+    padding: 34px 15px 34px 10px;
+
+}
+
+.console {
+    height: 375px;
+    width: auto;
+    padding: 217px 0 0 0;
+
+}
+
+.war {
+    height: 520px;
+    width: auto;
+    padding: 72px 0 0 0;
+}
+
+#banner {
+    display: flex;
+}
+
+/* content section  */
+
+.content {
+    height: 550px;
+    width: 100vw;
+    background: linear-gradient(#141e30, #243b55);
+    text-align: center;
+    display: flex;
+}
+
+.my-1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    padding: 140px 0 0 0;
+}
+
+.my-2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-c {
+    height: 470px;
+    width: auto;
+    padding: 50px 0 0 0;
+}
+
+.my-con {
+    display: flex;
+    flex-direction: column;
+}
+
+/* for collage  */
+.collage {
+    height: 495px;
+    width: 100vw;
+    background: linear-gradient(#bdc3c7, #2c3e50);
+    display: flex;
+
+}
+
+.my-col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-c-1 {
+    height: 70px;
+    width: 310px;
+    padding: 170px 0 0 250px;
+}
+
+.c-1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.btn-2 {
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+    margin: 55px 0 0 240px;
+    border-radius: 20px;
+
+}
+
+.my-pc {
+    height: 370px;
+    width: auto;
+    padding: 65px 50px 0 100px;
+}
+
+.btn-3 {
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+    margin: 55px 0 0 360px;
+    border-radius: 20px;
+}
+
+/* container */
+#container {
+    background: linear-gradient(#414141, #000000);
+    width: 100vw;
+    height: 795px;
+}
+
+.cont-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 44px 0 17px 35px;
+    font-size: 35px;
+}
+
+.cont-text-1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 0 0 50px 32px;
+
+}
+
+/* card inside the container  */
+.card-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.card-img {
+    height: 185px;
+    width: auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.text {
+    color: rgb(255, 249, 249);
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    padding: 11px 0 0px 10px;
+    cursor: pointer;
+}
+
+/* second card collection */
+.card-item-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+}
+
+/* ......................................................................................................  */
+
+/* shopping styling is here  */
+
+/* left section  */
+#shopping {
+    display: inline-flex;
+    height: 540px;
+}
+
+.shopp-text-area {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sBag {
+    height: 60px;
+    padding: 100px 0 0 100px;
+}
+
+.shop-L {
+    display: flex;
+}
+
+.shop-L h1 {
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+    color: black;
+    padding: 110px 0 0 0;
+}
+
+.shop-L p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 121px 0 0 0;
+    font-weight: 700;
+}
+
+.s-t-0 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    padding: 0 0 0 144px;
+}
+
+.s-t-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    padding: 0 0 0 138px;
+}
+
+.s-t-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 25px 0 0 138px;
+}
+
+.s-t-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 0 0 138px;
+}
+
+.btn-s {
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background: linear-gradient(#cc2b5e, #753a88);
+    border-radius: 20px;
+    margin: 50px 0 0 172px;
+}
+
+/* right side  */
+.shop-img {
+    cursor: pointer;
+    height: 153px;
+    width: auto;
+    padding: 135px 0 0 71px;
+}
+
+.shop-img-t {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 0 93px;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.shop-img-t1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 21px 0 0 87px;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+/* ...............................................................................................  */
+/* design for about */
+.about {
+    display: flex;
+}
+
+.a-Text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 45px 0 100px 0;
+}
+
+.name {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.my-pic {
+    height: 500px;
+    width: auto;
+    padding: 12px 0 0 0;
+}
+
+.fName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 0 0 0 97px;
+    font-weight: 800;
+}
+
+.position {
+    font-family: 'Roboto', sans-serif;
+    padding: 13px 0 15px 176px;
+}
+
+.icon-container {
+    max-width: 290px;
+    max-height: 300px;
+    padding: 0 10px 0 0px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.icon-tittle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 28px 0 0 0;
+    cursor: pointer;
+}
+
+.icon-tittle-2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.icon-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 47px 0 40px 0;
+}
+
+.icon-text-1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.cIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 60px;
+    cursor: pointer;
+}
+
+.icon-text-b {
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon-text-c {
+    padding: 52px 0 0 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* about section styling ends here  */
+/* .............................................................  */
+/* contact styling starts here  */
+
+#contact {
+    width: 100vw;
+    height: 500px;
+    background: linear-gradient(#614385, #516395);
+}
+
+.c-text-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    padding: 89px 0 105px 0px;
+    word-spacing: 12px;
+}
+
+.c-icons {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.c-icon {
+    height: 130px;
+    width: auto;
+    cursor: pointer;
+    padding: 0 19px 0 26px;
+}
+
+/* contact ends here   */
+
+/* .................................................................... */
+
+/* partner info */
+.partner-card{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.partner-card-1 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.p-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0 40px 0px;
+}
+
+.p-img {
+    height: 200px;
+    width: auto;
+}
+
+.text-1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px 0 12px 0;
+}
+
+.text-2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    max-width: 200px;
+    padding: 0 0 100px 0;
+}
+
+/* .......................................................................... */
+
+/* for footer  */
+footer {
+    display: flex;
+   
+}
+
+.f-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.globe {
+    height: 20px;
+    width: auto;
+    padding: 14px 0 0 106px;
+}
+
+.region {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 0 0 10px;
+}
+
+.b-flex-logo {
+    display: flex;
+}
+
+.f-logo-flex {
+    display: inline-flex;
+
+}
+
+.logo-2 {
+    height: 60px;
+    width: auto;
+    padding: 60px 0 0 89px;
+}
+
+footer h1 {
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+    color: black;
+    padding: 69px 440px 0 0;
+}
+
+footer ul {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 15px;
+    max-width: 205px;
+}
+
+.list {
+    padding: 55px 0 0 0;
+}
+
+.list-item {
+    padding: 10px 0 0 0;
+    cursor: pointer;
+}
+
+/* ..................................................... */
+/* footer second section  */
+
+.t-mark{
+    display: flex;
+
+}
+.t-mark-img{
+    height: 65px;
+    width: auto;
+    padding: 30px 0 0 93px;
+}
+.t-m-text{
+    font-family: 'Roboto', sans-serif;
+    padding: 45px 0 0 3px;
+    font-size: 13px;
+
+}
+.t-m-t{
+   height: 200px;
+    max-width: 700px;
+}
+.t-m-text-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 13px 0 0 100px;
+
+}
